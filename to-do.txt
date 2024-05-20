@@ -1,0 +1,34 @@
+Goal: Create a simple machine learning model which can take inputted homework questions and evaluate the likelihood of them appearing on a math-test
+
+Steps:
+DATA
+1. Gather training data - PAST PAPERS and TEXTBOOK QUESTIONS for questions - TESTS for questions which appear
+
+PREPARING DATA
+2. Preprocess, tokenize and lemmatize the text - use an online tool or make another project for this
+3. Term Frequency-Inverse Document Frequency (TF-IDF) to identify important words or phrases
+4. Vectorize with TF-IDF or word embeddings
+5. Label Data - 1 if on test, 2 if not on test
+6. Create train-test split
+
+MODEL BUILDING
+7. Choose a model (something simple; logistic regression or decision trees or naive bayes, etc.)
+8. Train model on the training steps 
+9. Use accuracy metrics to evaluate the model on the test-steps
+10. Adjust hyperparameters and try different models or feature extraction techniques to improve performance
+
+DEPLOYMENT
+11. Make a proper UI for the frontend on React.js or any other JS library
+12. Integrate MongoDB Atlas for the backend storage retention
+
+
+** TO-DO:
+- Find tech-stack to use
+- Gather data
+- Create base frontend in Figma
+
+** BRAINSTORMING
+Data Preprocessing: NLTK, spaCy
+Feature Extraction: Scikit-learn, gensim
+Modeling: Scikit-learn, TensorFlow, Keras, PyTorch
+Deployment: Flask, Django
